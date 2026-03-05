@@ -1,0 +1,8 @@
+{
+  "name": "commit-bot",
+  "version": "1.0.0",
+  "main": "autoCommit.js",
+  "scripts": {
+    "start": "node autoCommit.js"
+  }
+}
