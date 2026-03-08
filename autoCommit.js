@@ -3,7 +3,7 @@ const { execSync } = require("child_process");
 
 const options = { stdio: "inherit", shell: "cmd.exe" };
 
-let totalCommits = 100;
+let totalCommits = 500;
 
 for (let i = 1; i <= totalCommits; i++) {
   fs.appendFileSync("data.txt", "commit " + i + "\n");
